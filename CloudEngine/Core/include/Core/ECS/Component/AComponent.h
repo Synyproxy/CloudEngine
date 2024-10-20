@@ -1,12 +1,11 @@
 #pragma once
 
 #include "Core/ECS/Types.h"
-#include "Core/CoreAPI.h"
 #include <Core/Serializer/TinyXML2.h>
 
 namespace Core
 {
-	class CORE_API AComponent
+	class AComponent
 	{
 		friend class ComponentManager;
 

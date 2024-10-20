@@ -1,6 +1,5 @@
 #pragma once
 
-#include "Core/CoreAPI.h"
 #include "Core/ECS/Entity/Entity.h"
 #include <Tools.h>
 
@@ -8,7 +7,7 @@ namespace Core
 {
 	namespace Entities
 	{
-		class CORE_API GameObject : public Entity<GameObject>
+		class GameObject : public Entity<GameObject>
 		{
 		public:
 			explicit GameObject(std::string p_name = { "GameObject" });

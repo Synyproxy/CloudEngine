@@ -1,7 +1,6 @@
 #pragma once
 
 #include "Core/ECS/Component/Component.h"
-#include "Core/CoreAPI.h"
 #include "Physic/Dynamics/RigidBody.h"
 #include "Physic/Collision/ACollider.h"
 
@@ -11,7 +10,7 @@ namespace Core
 	{
 		class ACollider;
 
-		class CORE_API PhysicObject : public Component<PhysicObject>
+		class PhysicObject : public Component<PhysicObject>
 		{
 			friend class ::Core::Systems::PhysicSystem;
 			friend class ::Core::Components::ACollider;

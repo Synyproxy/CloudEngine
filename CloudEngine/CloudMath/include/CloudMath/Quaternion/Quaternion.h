@@ -8,14 +8,13 @@
 #ifndef _QUATERNION_H
 #define _QUATERNION_H
 
-#include "CloudMath/CloudMathAPI.h"
 #include "CloudMath/Vector/Vector3.h"
 #include "CloudMath/Matrix/Matrix3.h"
 #include "CloudMath/Matrix/Matrix4.h"
 
 namespace CloudMath
 {
-	class CLOUDMATH_API Quaternion
+	class Quaternion
 	{
 	private:
 		float m_x;
@@ -255,6 +254,6 @@ namespace CloudMath
 #pragma endregion
 	};
 
-	CLOUDMATH_API std::ostream& operator<<(std::ostream& p_stream, const Quaternion& p_quaternion);
+	std::ostream& operator<<(std::ostream& p_stream, const Quaternion& p_quaternion);
 }
 #endif //_QUATERNION_H

@@ -12,7 +12,6 @@
 #pragma warning(disable: 4251)
 
 #include "CloudMath/stdafx.h"
-#include "CloudMath/CloudMathAPI.h"
 
 namespace CloudMath
 {
@@ -21,7 +20,7 @@ namespace CloudMath
 		/**
 		 * Provides some static random number generation
 		 */
-		class CLOUDMATH_API Random final
+		class Random final
 		{
 		private:
 			static std::default_random_engine s_generator;

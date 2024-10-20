@@ -1,7 +1,6 @@
 #pragma once
 
 #include <Core/stdafx.h>
-#include <Core/CoreAPI.h>
 #include <Core/ECS/System/System.h>
 #include <Core/CoreComponent/LightComponent.h>
 
@@ -26,7 +25,7 @@ namespace Core
 	{
 		using namespace Core;
 
-		class CORE_API LightSwitcherSystem : public  System<LightSwitcherSystem>
+		class LightSwitcherSystem : public  System<LightSwitcherSystem>
 		{
 		public:
 			LightSwitcherSystem(SystemPriority p_priority = SystemPriority::NORMAL_SYSTEM_PRIORITY,

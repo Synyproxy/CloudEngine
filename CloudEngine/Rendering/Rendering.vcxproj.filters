@@ -18,9 +18,6 @@
     <ClInclude Include="include\Rendering.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\Rendering\RenderingAPI.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\Rendering\stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>

@@ -2,7 +2,6 @@
 
 #include <bullet/btBulletDynamicsCommon.h>
 #include <Tools.h>
-#include "Physic/PhysicAPI.h"
 #include "Physic/Collision/ACollider.h"
 #include "Physic/Collision/SphereCollider.h"
 #include "CloudMath/Matrix/Matrix4.h"
@@ -20,7 +19,7 @@ namespace Physic
 		CONTINUOUS,
 	};
 
-	class PHYSIC_API RigidBody
+	class RigidBody
 	{
 	public:
 		explicit RigidBody(ACollider* p_collider = new SphereCollider(),

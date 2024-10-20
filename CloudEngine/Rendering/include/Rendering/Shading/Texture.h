@@ -1,11 +1,10 @@
 #pragma once
 
 #include "Rendering/stdafx.h"
-#include "Rendering/RenderingAPI.h"
 
 namespace Rendering
 {
-	class RENDERING_API Texture
+	class Texture
 	{
 	public:
 		Texture();

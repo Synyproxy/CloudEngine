@@ -1,12 +1,11 @@
 #pragma once
 
-#include "Physic/PhysicAPI.h"
 #include <bullet/btBulletCollisionCommon.h>
 #include "CloudMath.h"
 
 namespace Physic
 {
-	class PHYSIC_API ACollider
+	class ACollider
 	{
 	public:
 		enum class ShapeType : char

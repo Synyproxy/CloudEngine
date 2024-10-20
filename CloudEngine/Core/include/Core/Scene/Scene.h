@@ -1,7 +1,6 @@
 #pragma once
 
 #include <Core/stdafx.h>
-#include <Core/CoreAPI.h>
 #include <Core/Scene/SceneNode.h>
 #include <Core/Serializer/TinyXML2.h>
 
@@ -16,7 +15,7 @@ namespace Core
 
 	class SceneManager;
 
-	class CORE_API Scene
+	class Scene
 	{
 		friend Systems::WorldTransformSystem;
 

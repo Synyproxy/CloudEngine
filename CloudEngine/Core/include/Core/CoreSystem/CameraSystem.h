@@ -1,7 +1,6 @@
 #pragma once
 
 #include <Core/stdafx.h>
-#include <Core/CoreAPI.h>
 #include <Core/ECS/System/System.h>
 #include <Core/CoreComponent/CameraComponent.h>
 #include <Core/CoreComponent/UniformRendering.h>
@@ -19,7 +18,7 @@ namespace Core
 {
 	namespace Systems
 	{
-		class CORE_API CameraSystem : public Core:: System<CameraSystem>
+		class CameraSystem : public Core:: System<CameraSystem>
 		{
 		public:
 			CameraSystem(Core::SystemPriority p_priority = SystemPriority::NORMAL_SYSTEM_PRIORITY,

@@ -21,9 +21,6 @@
     <ClInclude Include="include\Physic\stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\Physic\PhysicAPI.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\Physic\Simulation\PhysicEngine.h">
       <Filter>Header Files</Filter>
     </ClInclude>

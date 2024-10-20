@@ -74,28 +74,28 @@
     <IntDir>$(SolutionDir)Intermediate\$(Configuration)-$(Platform)\$(ProjectName)\</IntDir>
     <IncludePath>$(SolutionDir)CloudMath\include;$(SolutionDir)Glad\include;$(SolutionDir)Rendering\include;$(SolutionDir)Tools\include;$(SolutionDir)Physic\include;$(SolutionDir)Core\include;$(ProjectDir)include;$(SolutionDir)Dependencies\GLFW\$(Platform)\include;$(SolutionDir)Dependencies\Assimp\include;$(SolutionDir)Dependencies\Bullet3\include;$(IncludePath)</IncludePath>
     <SourcePath>$(ProjectDir)src;$(SourcePath)</SourcePath>
-    <LibraryPath>$(SolutionDir)Build\$(Configuration)-$(Platform)\CloudMath;$(SolutionDir)Build\$(Configuration)-$(Platform)\Tools;$(SolutionDir)Build\$(Configuration)-$(Platform)\Rendering;$(SolutionDir)Build\$(Configuration)-$(Platform)\Physic;$(SolutionDir)Build\$(Configuration)-$(Platform)\Core;$(SolutionDir)Build\$(Configuration)-$(Platform)\Glad;$(SolutionDir)Dependencies\Bullet3\lib\$(Configuration);$(SolutionDir)Dependencies\Assimp\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)Build\$(Configuration)-$(Platform)\CloudMath;$(SolutionDir)Build\$(Configuration)-$(Platform)\Tools;$(SolutionDir)Build\$(Configuration)-$(Platform)\Rendering;$(SolutionDir)Build\$(Configuration)-$(Platform)\Physic;$(SolutionDir)Build\$(Configuration)-$(Platform)\Core;$(SolutionDir)Build\$(Configuration)-$(Platform)\Glad;$(SolutionDir)Dependencies\Bullet3\lib\$(Configuration);$(SolutionDir)Dependencies\Assimp\lib;$(SolutionDir)Dependencies\GLFW\$(Platform)\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)Build\$(Configuration)-$(Platform)\$(ProjectName)\</OutDir>
     <IntDir>$(SolutionDir)Intermediate\$(Configuration)-$(Platform)\$(ProjectName)\</IntDir>
     <IncludePath>$(SolutionDir)CloudMath\include;$(SolutionDir)Glad\include;$(SolutionDir)Rendering\include;$(SolutionDir)Tools\include;$(SolutionDir)Physic\include;$(SolutionDir)Core\include;$(ProjectDir)include;$(SolutionDir)Dependencies\GLFW\$(Platform)\include;$(SolutionDir)Dependencies\Assimp\include;$(SolutionDir)Dependencies\Bullet3\include;$(IncludePath)</IncludePath>
     <SourcePath>$(ProjectDir)src;$(SourcePath)</SourcePath>
-    <LibraryPath>$(SolutionDir)Build\$(Configuration)-$(Platform)\CloudMath;$(SolutionDir)Build\$(Configuration)-$(Platform)\Tools;$(SolutionDir)Build\$(Configuration)-$(Platform)\Rendering;$(SolutionDir)Build\$(Configuration)-$(Platform)\Physic;$(SolutionDir)Build\$(Configuration)-$(Platform)\Core;$(SolutionDir)Build\$(Configuration)-$(Platform)\Glad;$(SolutionDir)Dependencies\Bullet3\lib\$(Configuration);$(SolutionDir)Dependencies\Assimp\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)Build\$(Configuration)-$(Platform)\CloudMath;$(SolutionDir)Build\$(Configuration)-$(Platform)\Tools;$(SolutionDir)Build\$(Configuration)-$(Platform)\Rendering;$(SolutionDir)Build\$(Configuration)-$(Platform)\Physic;$(SolutionDir)Build\$(Configuration)-$(Platform)\Core;$(SolutionDir)Build\$(Configuration)-$(Platform)\Glad;$(SolutionDir)Dependencies\Bullet3\lib\$(Configuration);$(SolutionDir)Dependencies\Assimp\lib;$(SolutionDir)Dependencies\GLFW\$(Platform)\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)Build\$(Configuration)-$(Platform)\$(ProjectName)\</OutDir>
     <IntDir>$(SolutionDir)Intermediate\$(Configuration)-$(Platform)\$(ProjectName)\</IntDir>
     <IncludePath>$(SolutionDir)CloudMath\include;$(SolutionDir)Glad\include;$(SolutionDir)Rendering\include;$(SolutionDir)Tools\include;$(SolutionDir)Physic\include;$(SolutionDir)Core\include;$(ProjectDir)include;$(SolutionDir)Dependencies\GLFW\$(Platform)\include;$(SolutionDir)Dependencies\Assimp\include;$(SolutionDir)Dependencies\Bullet3\include;$(IncludePath)</IncludePath>
     <SourcePath>$(ProjectDir)src;$(SourcePath)</SourcePath>
-    <LibraryPath>$(SolutionDir)Build\$(Configuration)-$(Platform)\CloudMath;$(SolutionDir)Build\$(Configuration)-$(Platform)\Tools;$(SolutionDir)Build\$(Configuration)-$(Platform)\Rendering;$(SolutionDir)Build\$(Configuration)-$(Platform)\Physic;$(SolutionDir)Build\$(Configuration)-$(Platform)\Core;$(SolutionDir)Build\$(Configuration)-$(Platform)\Glad;$(SolutionDir)Dependencies\Bullet3\lib\$(Configuration);$(SolutionDir)Dependencies\Assimp\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)Build\$(Configuration)-$(Platform)\CloudMath;$(SolutionDir)Build\$(Configuration)-$(Platform)\Tools;$(SolutionDir)Build\$(Configuration)-$(Platform)\Rendering;$(SolutionDir)Build\$(Configuration)-$(Platform)\Physic;$(SolutionDir)Build\$(Configuration)-$(Platform)\Core;$(SolutionDir)Build\$(Configuration)-$(Platform)\Glad;$(SolutionDir)Dependencies\Bullet3\lib\$(Configuration);$(SolutionDir)Dependencies\Assimp\lib;$(SolutionDir)Dependencies\GLFW\$(Platform)\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)Build\$(Configuration)-$(Platform)\$(ProjectName)\</OutDir>
     <IntDir>$(SolutionDir)Intermediate\$(Configuration)-$(Platform)\$(ProjectName)\</IntDir>
     <IncludePath>$(SolutionDir)CloudMath\include;$(SolutionDir)Glad\include;$(SolutionDir)Rendering\include;$(SolutionDir)Tools\include;$(SolutionDir)Physic\include;$(SolutionDir)Core\include;$(ProjectDir)include;$(SolutionDir)Dependencies\GLFW\$(Platform)\include;$(SolutionDir)Dependencies\Assimp\include;$(SolutionDir)Dependencies\Bullet3\include;$(IncludePath)</IncludePath>
     <SourcePath>$(ProjectDir)src;$(SourcePath)</SourcePath>
-    <LibraryPath>$(SolutionDir)Build\$(Configuration)-$(Platform)\CloudMath;$(SolutionDir)Build\$(Configuration)-$(Platform)\Tools;$(SolutionDir)Build\$(Configuration)-$(Platform)\Rendering;$(SolutionDir)Build\$(Configuration)-$(Platform)\Physic;$(SolutionDir)Build\$(Configuration)-$(Platform)\Core;$(SolutionDir)Build\$(Configuration)-$(Platform)\Glad;$(SolutionDir)Dependencies\Bullet3\lib\$(Configuration);$(SolutionDir)Dependencies\Assimp\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)Build\$(Configuration)-$(Platform)\CloudMath;$(SolutionDir)Build\$(Configuration)-$(Platform)\Tools;$(SolutionDir)Build\$(Configuration)-$(Platform)\Rendering;$(SolutionDir)Build\$(Configuration)-$(Platform)\Physic;$(SolutionDir)Build\$(Configuration)-$(Platform)\Core;$(SolutionDir)Build\$(Configuration)-$(Platform)\Glad;$(SolutionDir)Dependencies\Bullet3\lib\$(Configuration);$(SolutionDir)Dependencies\Assimp\lib;$(SolutionDir)Dependencies\GLFW\$(Platform)\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -115,7 +115,7 @@ copy /Y "$(SolutionDir)Build\$(Configuration)-$(Platform)\Physic\Physic.dll" "$(
 copy /Y "$(SolutionDir)Dependencies\Assimp\bin\assimp-vc140-mt.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>CloudMath.lib;Tools.lib;Rendering.lib;Physic.lib;Core.lib;Glad.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>CloudMath.lib;Tools.lib;Rendering.lib;Physic.lib;Core.lib;Glad.lib;assimp-vc140-mt.lib;Bullet3Collision.lib;Bullet3Common.lib;Bullet3Dynamics.lib;Bullet3Geometry.lib;BulletCollision.lib;BulletDynamics.lib;BulletSoftBody.lib;LinearMath.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -136,7 +136,7 @@ copy /Y "$(SolutionDir)Build\$(Configuration)-$(Platform)\Physic\Physic.dll" "$(
 copy /Y "$(SolutionDir)Dependencies\Assimp\bin\assimp-vc140-mt.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>CloudMath.lib;Tools.lib;Rendering.lib;Physic.lib;Core.lib;Glad.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>CloudMath.lib;Tools.lib;Rendering.lib;Physic.lib;Core.lib;Glad.lib;assimp-vc140-mt.lib;Bullet3Collision.lib;Bullet3Common.lib;Bullet3Dynamics.lib;Bullet3Geometry.lib;BulletCollision.lib;BulletDynamics.lib;BulletSoftBody.lib;LinearMath.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -152,7 +152,7 @@ copy /Y "$(SolutionDir)Dependencies\Assimp\bin\assimp-vc140-mt.dll" "$(OutDir)"<
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>CloudMath.lib;Tools.lib;Rendering.lib;Physic.lib;Core.lib;Glad.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>CloudMath.lib;Tools.lib;Rendering.lib;Physic.lib;Core.lib;Glad.lib;assimp-vc140-mt.lib;Bullet3Collision.lib;Bullet3Common.lib;Bullet3Dynamics.lib;Bullet3Geometry.lib;BulletCollision.lib;BulletDynamics.lib;BulletSoftBody.lib;LinearMath.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy /Y "$(SolutionDir)Build\$(Configuration)-$(Platform)\Tools\Tools.dll" "$(OutDir)"
@@ -177,7 +177,7 @@ copy /Y "$(SolutionDir)Dependencies\Assimp\bin\assimp-vc140-mt.dll" "$(OutDir)"<
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>CloudMath.lib;Tools.lib;Rendering.lib;Physic.lib;Core.lib;Glad.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>CloudMath.lib;Tools.lib;Rendering.lib;Physic.lib;Core.lib;Glad.lib;assimp-vc140-mt.lib;Bullet3Collision.lib;Bullet3Common.lib;Bullet3Dynamics.lib;Bullet3Geometry.lib;BulletCollision.lib;BulletDynamics.lib;BulletSoftBody.lib;LinearMath.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy /Y "$(SolutionDir)Build\$(Configuration)-$(Platform)\Tools\Tools.dll" "$(OutDir)"

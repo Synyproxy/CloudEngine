@@ -1,6 +1,5 @@
 #pragma once
 
-#include "Core/CoreAPI.h"
 #include "Core/CoreComponent/Physic/PhysicObject.h"
 
 namespace Core
@@ -9,7 +8,7 @@ namespace Core
 	{
 		class ACollider;
 	}
-	struct CORE_API Collision
+	struct Collision
 	{
 		std::shared_ptr<Entities::GameObject> gameObject{ nullptr };
 		std::shared_ptr<Components::ACollider> collider{ nullptr };
@@ -19,7 +18,7 @@ namespace Core
 
 	namespace Components
 	{
-		class CORE_API ACollider
+		class ACollider
 		{
 		protected:
 			ACollider() = default;

@@ -1,13 +1,12 @@
 #pragma once
 
-#include "Core/CoreAPI.h"
 #include "Core/ECS/Entity/EntityManager.h"
 #include "Core/ECS/Component/ComponentManager.h"
 #include "Core/ECS/System/SystemManager.h"
 
 namespace Core
 {
-	class CORE_API ECS
+	class ECS
 	{
 		friend class CloudEngine;
 

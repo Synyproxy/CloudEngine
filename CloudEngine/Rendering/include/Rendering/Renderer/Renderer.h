@@ -2,7 +2,6 @@
 
 #include "Rendering/stdafx.h"
 
-#include "Rendering/RenderingAPI.h"
 #include "Rendering/Driver/Driver.h"
 #include "Rendering/Shading/ShaderLoader.h"
 #include "Rendering/Shading/Textureloader.h"
@@ -14,7 +13,7 @@
 
 namespace Rendering
 {
-	class RENDERING_API Renderer
+	class Renderer
 	{
 	public:
 		Renderer();

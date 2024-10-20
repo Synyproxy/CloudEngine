@@ -1,6 +1,5 @@
 #pragma once
 
-#include "Core/CoreAPI.h"
 #include "Rendering.h"
 #include "Core/Window/Window.h"
 
@@ -17,7 +16,7 @@
 
 namespace Core
 {
-	class CORE_API CloudEngine
+	class CloudEngine
 	{
 	public:
 

@@ -21,9 +21,6 @@
     <ClInclude Include="include\CloudMath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\CloudMath\CloudMathAPI.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\CloudMath\Vector\Vector2.h">
       <Filter>Header Files</Filter>
     </ClInclude>

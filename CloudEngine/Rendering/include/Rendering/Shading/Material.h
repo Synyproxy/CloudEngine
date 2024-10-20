@@ -1,13 +1,12 @@
 #pragma once
 
 #include "Rendering/stdafx.h"
-#include "Rendering/RenderingAPI.h"
 #include "Rendering/Shading/Shader.h"
 #include <Tools.h>
 
 namespace Rendering
 {
-	class RENDERING_API Material
+	class Material
 	{
 	public:
 		Material();
@@ -35,7 +34,7 @@ namespace Rendering
 		void LoadSamplers();
 		void ClearSlots();
 		void OnReloadShader(Shader* p_shader);
-		unsigned int numSlots = 0;
+		size_t numSlots = 0;
 
 	private:
 		Shader* m_shader = nullptr;

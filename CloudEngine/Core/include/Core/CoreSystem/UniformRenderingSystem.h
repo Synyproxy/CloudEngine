@@ -19,7 +19,7 @@ namespace Core
 	{
 		using namespace Core;
 
-		class CORE_API UniformRenderingSystem : public Core::System<UniformRenderingSystem>
+		class UniformRenderingSystem : public Core::System<UniformRenderingSystem>
 		{
 		public:
 			UniformRenderingSystem(SystemPriority p_priority = SystemPriority::NORMAL_SYSTEM_PRIORITY,

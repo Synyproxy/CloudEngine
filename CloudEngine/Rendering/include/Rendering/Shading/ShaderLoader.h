@@ -1,7 +1,6 @@
 #pragma once
 
 #include "Rendering/stdafx.h"
-#include "Rendering/RenderingAPI.h"
 #include "Rendering/Shading/Shader.h"
 
 namespace Rendering
@@ -12,7 +11,7 @@ namespace Rendering
 	 * Failing to do so will generate a GPU Leak of a shader program
 	 * @param p_shaderPath without extention, the vertex and the fragment must have the same name
 	*/
-	class RENDERING_API ShaderLoader
+	class ShaderLoader
 	{
 	public:
 		static std::pair<unsigned int, std::string> Load(std::string p_name, std::string p_shaderPath);

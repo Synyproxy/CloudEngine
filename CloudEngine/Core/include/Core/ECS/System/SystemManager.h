@@ -1,6 +1,5 @@
 #pragma once
 
-#include "Core/CoreAPI.h"
 #include "Core/stdafx.h"
 #include "Tools.h"
 
@@ -13,7 +12,7 @@ namespace Core
 	class CloudEngine;
 	class ECS;
 
-	class CORE_API SystemManager
+	class SystemManager
 	{
 		using ASystem_ptr = std::shared_ptr<ASystem>;
 

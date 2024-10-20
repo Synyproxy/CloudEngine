@@ -1,7 +1,6 @@
 #pragma once
 
 #include <CloudMath.h>
-#include "Core/CoreAPI.h"
 #include "Core/ECS/Component/Component.h"
 #include "Tools/Event/Event.h"
 
@@ -13,7 +12,7 @@ namespace Core
 {
 	namespace Components
 	{
-		class CORE_API Transform : public Component<Transform>
+		class Transform : public Component<Transform>
 		{
 		public:
 			explicit Transform(const CloudMath::Vector3f& p_position = {0, 0, 0},

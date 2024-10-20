@@ -6,7 +6,7 @@ namespace Core
 {
 	namespace Systems
 	{
-		class CORE_API PhysicSystem : public System<PhysicSystem>
+		class PhysicSystem : public System<PhysicSystem>
 		{
 		public:
 			explicit PhysicSystem(SystemPriority p_priority = SystemPriority::NORMAL_SYSTEM_PRIORITY,

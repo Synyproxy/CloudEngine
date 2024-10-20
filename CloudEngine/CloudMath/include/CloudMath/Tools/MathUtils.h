@@ -8,7 +8,6 @@
 #ifndef _UTILS_H
 #define _UTILS_H
 
-#include "CloudMath/CloudMathAPI.h"
 #include "CloudMath/Tools/Generics.h"
 
 namespace CloudMath
@@ -18,7 +17,7 @@ namespace CloudMath
 		/**
 		* Utils class provides some simple mathematics tools, such as operations, pow, root, trigonometry stuffs...
 		*/
-		class CLOUDMATH_API MathUtils final
+		class MathUtils final
 		{
 		public:
 			MathUtils() = delete;

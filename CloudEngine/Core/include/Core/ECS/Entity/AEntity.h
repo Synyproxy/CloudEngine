@@ -1,12 +1,11 @@
 #pragma once
 
 #include "Core/ECS/Types.h"
-#include "Core/CoreAPI.h"
 #include "Core/ECS/Component/ComponentManager.h"
 
 namespace Core
 {
-		class CORE_API AEntity
+		class AEntity
 		{
 			friend class EntityManager;
 

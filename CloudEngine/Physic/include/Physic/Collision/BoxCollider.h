@@ -5,7 +5,7 @@
 
 namespace Physic
 {
-	class PHYSIC_API BoxCollider : public ACollider
+	class BoxCollider : public ACollider
 	{
 	public:
 		explicit BoxCollider(CloudMath::Vector3f p_boxExtents = {1, 1, 1});

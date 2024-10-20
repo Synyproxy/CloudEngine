@@ -1,12 +1,11 @@
 #pragma once
 
-#include <Rendering/RenderingAPI.h>
 #include <Rendering/Resource/Mesh.h>
 #include <Rendering/Shading/Material.h>
 
 namespace Rendering
 {
-	class RENDERING_API Model
+	class Model
 	{
 	public:
 		Model();

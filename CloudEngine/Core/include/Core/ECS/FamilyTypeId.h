@@ -2,7 +2,6 @@
 
 #include "any"
 #include "Core/ECS/Types.h"
-#include "Core/CoreAPI.h"
 
 namespace Core::Components
 {

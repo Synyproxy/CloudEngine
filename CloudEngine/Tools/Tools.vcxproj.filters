@@ -47,9 +47,6 @@
     <ClInclude Include="include\Tools.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\Tools\ToolsAPI.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\Tools\Logs\ConsoleLog.h">
       <Filter>Header Files</Filter>
     </ClInclude>

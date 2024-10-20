@@ -1,6 +1,5 @@
 #pragma once
 
-#include <Core/CoreAPI.h>
 #include <Core/ECS/Component/Component.h>
 #include <Rendering/Light/Light.h>
 #include <CloudMath.h>
@@ -19,7 +18,7 @@ namespace Core
 {
 	namespace Components
 	{
-		class CORE_API LightComponent : public Component<LightComponent>
+		class LightComponent : public Component<LightComponent>
 		{
 		public:
 			LightComponent();

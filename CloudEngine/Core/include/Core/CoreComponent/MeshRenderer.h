@@ -1,6 +1,5 @@
 #pragma once
 
-#include <Core/CoreAPI.h>
 #include <Core/ECS/Component/Component.h>
 #include <Rendering/Resource/Mesh.h>
 #include <Rendering/Shading/Material.h>
@@ -19,7 +18,7 @@ namespace Core
 {
 	namespace Components
 	{
-		class CORE_API MeshRenderer : public Component<MeshRenderer>
+		class MeshRenderer : public Component<MeshRenderer>
 		{
 		public:
 			MeshRenderer();

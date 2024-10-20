@@ -1,14 +1,13 @@
 #pragma once
 
 #include "Core/stdafx.h"
-#include "Core/CoreAPI.h"
 #include "Core/Window/Window.h"
 #include "Core/Engine/Key.h"
 #include "Rendering.h"
 
 namespace Core
 {
-	class CORE_API Input
+	class Input
 	{
 	public:
 		static void KeyCallBack(GLFWwindow* p_window, int p_key, int p_scanCode, int p_action, int p_mods);

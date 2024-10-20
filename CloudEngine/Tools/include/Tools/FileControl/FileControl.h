@@ -1,5 +1,4 @@
 #pragma once
-#include "Tools/ToolsAPI.h"
 #include "map"
 #include "fstream"
 
@@ -14,7 +13,7 @@
 
 namespace Utils
 {	
-	class  TOOLS_API FileControl
+	class FileControl
 	{
 	public :
 		FileControl() = default;

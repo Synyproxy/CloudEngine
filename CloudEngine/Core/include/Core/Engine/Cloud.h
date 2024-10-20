@@ -10,7 +10,7 @@
 
 namespace Core
 {
-	class CORE_API AResourceManager
+	class AResourceManager
 	{
 	protected:
 		std::string m_resourceFolderPath;
@@ -20,7 +20,7 @@ namespace Core
 	class ResourceManager;
 }
 
-class CORE_API Cloud
+class Cloud
 {
 private:
 	Cloud();

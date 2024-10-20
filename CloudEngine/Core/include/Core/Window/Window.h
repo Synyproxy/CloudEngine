@@ -1,13 +1,12 @@
 #pragma once
 
 #include "Core/stdafx.h"
-#include "Core/CoreAPI.h"
 #include "Core/Engine/Input.h"
 #include "Rendering/Driver/Driver.h"
 
 namespace Core
 {
-	class CORE_API Window
+	class Window
 	{
 	public:
 		Window() = delete;

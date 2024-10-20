@@ -1,13 +1,12 @@
 #pragma once
 
-#include "Core/CoreAPI.h"
 #include "Core/stdafx.h"
 #include "Tools.h"
 #include "TypeFunctions.h"
 
 namespace Core
 {
-	class CORE_API ARegistry
+	class ARegistry
 	{
 		
 	};
