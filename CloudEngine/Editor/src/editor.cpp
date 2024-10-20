@@ -2,7 +2,6 @@
 #include <QShortcut>
 #include <QSplitter>
 #include "MainMenuBar.h"
-#include <QDesktopWidget>
 
 Editor::Editor(QWidget *parent)
 	:	QMainWindow(parent)

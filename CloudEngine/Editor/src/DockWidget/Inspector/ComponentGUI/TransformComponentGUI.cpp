@@ -52,7 +52,7 @@ void TransformComponentGUI::SetupFrame()
 		m_mainGridLayout->setSpacing(0);
 		m_mainGridLayout->setVerticalSpacing(0);
 
-		m_mainGridLayout->setMargin(0);
+		m_mainGridLayout->setContentsMargins(0, 0, 0, 0);
 		m_mainGridLayout->setContentsMargins(0,0,0,0);
 		
 	}

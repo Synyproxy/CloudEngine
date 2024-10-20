@@ -3,7 +3,6 @@
 
 #include <QLineEdit>
 #include <QApplication>
-#include <QDesktopWidget>
 #include <QLocale>
 #include <QHBoxLayout>
 #include <QKeyEvent>
@@ -69,7 +68,7 @@ void SmartLabelEdit::DragStarted(QMouseEvent* event)
 
 void SmartLabelEdit::Dragged(QMouseEvent* event)
 {
-	QRect rec = QApplication::desktop()->screenGeometry();
+	QRect rec = QApplication::primaryScreen()->geometry();
 
 	double valueOffset = (QCursor::pos().x() - m_mouseStartPosX) / rec.width() * m_multiplier;
 	double x = m_field->text().toDouble();
@@ -117,7 +116,7 @@ void SmartLabelEdit::Setup()
 
 	QHBoxLayout* layout = new QHBoxLayout;
 	layout->setSpacing(5);
-	layout->setMargin(3);
+	layout->setContentsMargins(3, 3, 3, 3);
 
 	layout->addWidget(m_label, 0, Qt::AlignRight);
 	layout->addWidget(m_field, 1, Qt::AlignLeft);

@@ -27,7 +27,7 @@ void SmartLabel::mouseReleaseEvent(QMouseEvent* event)
 	emit DragStop(event);
 }
 
-void SmartLabel::enterEvent(QEvent* event)
+void SmartLabel::enterEvent(QEnterEvent* event)
 {
 	setCursor(QCursor(Qt::SizeHorCursor));
 }

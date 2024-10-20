@@ -9,7 +9,6 @@
 #include <Core/CoreComponent/Transform.h>
 
 #include <QApplication>
-#include <QDesktopWidget>
 #include <Core/Engine/CloudEngine.h>
 #include <KeyMapper.h>
 
@@ -84,7 +83,7 @@ void SceneWindow::mouseMoveEvent(QMouseEvent* event)
 	{
 		if (event->buttons() & Qt::LeftButton)
 		{
-			QRect screenRect = QApplication::desktop()->screenGeometry();
+			QRect screenRect = QApplication::primaryScreen()->geometry();
 
 			if (QCursor::pos().x() >= screenRect.width() - 1)
 			{

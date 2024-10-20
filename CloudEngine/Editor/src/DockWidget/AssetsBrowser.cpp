@@ -128,7 +128,7 @@ void AssetsBrowser::on_directoryView_clicked(const QModelIndex& index)
 	}
 
 	m_isRunning = true;
-	thread = QtConcurrent::run(this, &AssetsBrowser::List, filesList, fileView->iconSize());
+	thread = QtConcurrent::run(std::bind(&AssetsBrowser::List, this, filesList, fileView->iconSize()));
 }
 
 void AssetsBrowser::List(QFileInfoList filesList, QSize size)
@@ -144,6 +144,7 @@ void AssetsBrowser::List(QFileInfoList filesList, QSize size)
 
 			if (!m_isRunning)
 				return;
+
 			emit UpdateItem(i, shaderIcon);
 		}
 
@@ -152,6 +153,7 @@ void AssetsBrowser::List(QFileInfoList filesList, QSize size)
 			QPixmap scaledImage = originalImage.scaled(size);
 			if (!m_isRunning)
 				return;
+
 			emit UpdateItem(i, scaledImage);
 		}
 	}

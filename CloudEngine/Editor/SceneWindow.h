@@ -1,7 +1,7 @@
 #pragma once
 
 #include<glad/glad.h>
-#include "QOpenGLWidget"
+#include <QOpenGLWidget>
 #include "Core/Engine/CloudEngine.h"
 #include <QElapsedTimer>
 #include <Core/CoreEntity/Daemon.h>
