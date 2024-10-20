@@ -1,7 +1,6 @@
 #pragma once
 
 #include <Core/stdafx.h>
-#include <Core/CoreAPI.h>
 #include <Core/ECS/System/System.h>
 #include <Core/CoreComponent/MeshRenderer.h>
 #include <Rendering/Renderer/Renderer.h>
@@ -18,7 +17,7 @@ namespace Core
 	{
 		using namespace Core;
 
-		class CORE_API RenderingSystem : public System<RenderingSystem>
+		class RenderingSystem : public System<RenderingSystem>
 		{
 		public:
 			RenderingSystem(SystemPriority p_priority = SystemPriority::NORMAL_SYSTEM_PRIORITY,

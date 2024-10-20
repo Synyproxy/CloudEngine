@@ -52,14 +52,14 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)Build\$(Configuration)-$(Platform)\$(ProjectName)\</OutDir>
     <SourcePath>$(SolutionDir)Editor\src;$(SourcePath)</SourcePath>
-    <LibraryPath>$(SolutionDir)Build\$(Configuration)-$(Platform)\CloudMath;$(SolutionDir)Build\$(Configuration)-$(Platform)\Tools;$(SolutionDir)Build\$(Configuration)-$(Platform)\Core;$(SolutionDir)Build\$(Configuration)-$(Platform)\Glad;$(SolutionDir)Build\$(Configuration)-$(Platform)\Rendering;$(SolutionDir)Build\$(Configuration)-$(Platform)\Physic;$(SolutionDir)Dependencies\Bullet3\lib\$(Configuration);$(SolutionDir)Dependencies\Assimp\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)Build\$(Configuration)-$(Platform)\CloudMath;$(SolutionDir)Build\$(Configuration)-$(Platform)\Tools;$(SolutionDir)Build\$(Configuration)-$(Platform)\Core;$(SolutionDir)Build\$(Configuration)-$(Platform)\Glad;$(SolutionDir)Build\$(Configuration)-$(Platform)\Rendering;$(SolutionDir)Build\$(Configuration)-$(Platform)\Physic;$(SolutionDir)Dependencies\Bullet3\lib\$(Configuration);$(SolutionDir)Dependencies\Assimp\lib;$(SolutionDir)Dependencies\GLFW\$(Platform)\lib;$(LibraryPath)</LibraryPath>
     <IntDir>$(SolutionDir)Intermediate\$(Configuration)-$(Platform)\$(ProjectName)\</IntDir>
     <IncludePath>$(SolutionDir)CloudMath\include;$(SolutionDir)Glad\include;$(SolutionDir)Rendering\include;$(SolutionDir)Tools\include;$(SolutionDir)Physic\include;$(SolutionDir)Core\include;$(ProjectDir)include;$(SolutionDir)Dependencies\GLFW\$(Platform)\include;$(SolutionDir)Dependencies\Assimp\include;$(SolutionDir)Dependencies\Bullet3\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)Build\$(Configuration)-$(Platform)\$(ProjectName)\</OutDir>
     <SourcePath>$(SolutionDir)Editor\src;$(SourcePath)</SourcePath>
-    <LibraryPath>$(SolutionDir)Build\$(Configuration)-$(Platform)\CloudMath;$(SolutionDir)Build\$(Configuration)-$(Platform)\Tools;$(SolutionDir)Build\$(Configuration)-$(Platform)\Core;$(SolutionDir)Build\$(Configuration)-$(Platform)\Glad;$(SolutionDir)Build\$(Configuration)-$(Platform)\Rendering;$(SolutionDir)Build\$(Configuration)-$(Platform)\Physic;$(SolutionDir)Dependencies\Bullet3\lib\$(Configuration);$(SolutionDir)Dependencies\Assimp\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)Build\$(Configuration)-$(Platform)\CloudMath;$(SolutionDir)Build\$(Configuration)-$(Platform)\Tools;$(SolutionDir)Build\$(Configuration)-$(Platform)\Core;$(SolutionDir)Build\$(Configuration)-$(Platform)\Glad;$(SolutionDir)Build\$(Configuration)-$(Platform)\Rendering;$(SolutionDir)Build\$(Configuration)-$(Platform)\Physic;$(SolutionDir)Dependencies\Bullet3\lib\$(Configuration);$(SolutionDir)Dependencies\Assimp\lib;$(SolutionDir)Dependencies\GLFW\$(Platform)\lib;$(LibraryPath)</LibraryPath>
     <IntDir>$(SolutionDir)Intermediate\$(Configuration)-$(Platform)\$(ProjectName)\</IntDir>
     <IncludePath>$(SolutionDir)CloudMath\include;$(SolutionDir)Glad\include;$(SolutionDir)Rendering\include;$(SolutionDir)Tools\include;$(SolutionDir)Physic\include;$(SolutionDir)Core\include;$(ProjectDir)include;$(SolutionDir)Dependencies\GLFW\$(Platform)\include;$(SolutionDir)Dependencies\Assimp\include;$(SolutionDir)Dependencies\Bullet3\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
@@ -80,7 +80,7 @@
       <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>CloudMath.lib;Tools.lib;Rendering.lib;Physic.lib;Core.lib;Glad.lib;assimp-vc140-mt.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>CloudMath.lib;Tools.lib;Rendering.lib;Physic.lib;Core.lib;Glad.lib;assimp-vc140-mt.lib;opengl32.lib;glu32.lib;Bullet3Collision.lib;Bullet3Common.lib;Bullet3Dynamics.lib;Bullet3Geometry.lib;BulletCollision.lib;BulletDynamics.lib;BulletSoftBody.lib;LinearMath.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <QtMoc>
       <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
@@ -123,7 +123,7 @@ copy /Y "$(SolutionDir)Dependencies\Qt\*.dll" "$(OutDir)"</Command>
       <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
-      <AdditionalDependencies>CloudMath.lib;Tools.lib;Rendering.lib;Physic.lib;Core.lib;Glad.lib;assimp-vc140-mt.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>CloudMath.lib;Tools.lib;Rendering.lib;Physic.lib;Core.lib;Glad.lib;assimp-vc140-mt.lib;opengl32.lib;glu32.lib;Bullet3Collision.lib;Bullet3Common.lib;Bullet3Dynamics.lib;Bullet3Geometry.lib;BulletCollision.lib;BulletDynamics.lib;BulletSoftBody.lib;LinearMath.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <QtMoc>
       <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>

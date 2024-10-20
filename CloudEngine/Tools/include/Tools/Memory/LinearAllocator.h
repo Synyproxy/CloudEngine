@@ -6,7 +6,7 @@ namespace Tools
 {
 	namespace Memory
 	{
-		class TOOLS_API LinearAllocator : Allocator
+		class LinearAllocator : Allocator
 		{
 		public:
 			LinearAllocator(const size_t p_totalSize);

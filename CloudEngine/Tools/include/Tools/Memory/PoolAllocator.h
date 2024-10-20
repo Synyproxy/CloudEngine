@@ -6,7 +6,7 @@ namespace Tools
 {
 	namespace Memory
 	{
-		class TOOLS_API PoolAllocator : public Allocator
+		class PoolAllocator : public Allocator
 		{
 		public:
 			PoolAllocator(size_t p_totalSize, size_t p_chunkSize);

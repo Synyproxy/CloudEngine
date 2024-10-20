@@ -1,14 +1,12 @@
 #pragma once
 
 #include "Rendering/stdafx.h"
-#include "Rendering/RenderingAPI.h"
-//#include "Rendering/Resource/Mesh.h"
 #include "CloudMath.h"
 
 
 namespace Rendering
 {
-	class RENDERING_API DebugLight
+	class DebugLight
 	{
 	public:
 		DebugLight();

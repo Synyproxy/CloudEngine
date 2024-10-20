@@ -1,6 +1,5 @@
 #pragma once
 
-#include "Physic/PhysicAPI.h"
 #include "World.h"
 
 namespace Core
@@ -11,7 +10,7 @@ namespace Core
 	}
 }
 
-class PHYSIC_API PhysicEngine
+class PhysicEngine
 {
 	friend class Core::Systems::PhysicSystem;
 

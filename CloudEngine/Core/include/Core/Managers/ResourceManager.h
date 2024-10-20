@@ -1,6 +1,5 @@
 #pragma once
 
-#include "Core/CoreAPI.h"
 #include "Core/stdafx.h"
 #include "Register.h"
 #include "TypeFunctions.h"

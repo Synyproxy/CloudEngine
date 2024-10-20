@@ -4,7 +4,7 @@
 
 namespace Physic
 {
-	class PHYSIC_API SphereCollider : public ACollider
+	class SphereCollider : public ACollider
 	{
 	public:
 		explicit SphereCollider(float p_radius = 1.f);

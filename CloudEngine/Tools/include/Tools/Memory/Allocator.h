@@ -1,19 +1,18 @@
 #pragma once
 
 #include "Tools/stdafx.h"
-#include "Tools/ToolsAPI.h"
 
 namespace Tools
 {
 	namespace Memory
 	{
-		union TOOLS_API Ptr
+		union Ptr
 		{
 			uintptr_t asSize;
 			void* asPtr;
 		};
 
-		class TOOLS_API Allocator
+		class Allocator
 		{
 		public:
 			Allocator(const size_t p_totalSize);

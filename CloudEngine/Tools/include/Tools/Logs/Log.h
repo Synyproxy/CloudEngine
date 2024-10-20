@@ -1,5 +1,4 @@
 #pragma once
-#include "Tools/ToolsAPI.h"
 
 #include "LogLevel.h"
 #include "ConsoleLog.h"
@@ -35,7 +34,7 @@ namespace Debug
 	};
 
 
-	class TOOLS_API Log
+	class Log
 	{
 	public :
 		explicit Log(const LogLevel p_level);

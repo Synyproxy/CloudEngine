@@ -1,6 +1,5 @@
 #pragma once
 
-#include <Core/CoreAPI.h>
 #include <Core/ECS/Component/Component.h>
 #include <Rendering/Shading/UniformBuffer.h>
 
@@ -13,7 +12,7 @@ namespace Core
 {
 	namespace Components
 	{
-		class CORE_API UniformRendering : public Component<UniformRendering>
+		class UniformRendering : public Component<UniformRendering>
 		{
 		public:
 			void SetProjection(std::shared_ptr<CloudMath::Matrix4f> p_projection);

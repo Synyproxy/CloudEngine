@@ -1,12 +1,11 @@
 #pragma once
 
 #include "Rendering/stdafx.h"
-#include "Rendering/RenderingAPI.h"
 #include "CloudMath.h"
 
 namespace Rendering
 {
-	struct RENDERING_API MeshData
+	struct MeshData
 	{
 		static std::vector<CloudMath::Vector3f> Positions;
 		static std::vector<CloudMath::Vector3f> Normals;
@@ -22,7 +21,7 @@ namespace Rendering
 		}
 	};
 
-	class RENDERING_API Mesh
+	class Mesh
 	{
 	public:
 		Mesh();

@@ -1,12 +1,11 @@
 #pragma once
 
 #include "Rendering/stdafx.h"
-#include "Rendering/RenderingAPI.h"
 #include "Rendering/Shading/Texture.h"
 
 namespace Rendering
 {
-	class RENDERING_API TextureLoader
+	class TextureLoader
 	{
 	public:
 		static std::pair<unsigned int, std::string> Load(std::string p_name, std::string p_texturePath);

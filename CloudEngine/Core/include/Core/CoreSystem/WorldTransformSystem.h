@@ -1,6 +1,5 @@
 #pragma once
 
-#include <Core/CoreAPI.h>
 #include <Core/ECS/System/System.h>
 #include "Core/Scene/SceneNode.h"
 
@@ -8,7 +7,7 @@ namespace Core
 {
 	namespace Systems
 	{
-		class CORE_API WorldTransformSystem : public System<WorldTransformSystem>
+		class WorldTransformSystem : public System<WorldTransformSystem>
 		{
 		public:
 			WorldTransformSystem();

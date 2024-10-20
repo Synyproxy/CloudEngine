@@ -18,9 +18,6 @@
     <ClInclude Include="include\Core\stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\Core\CoreAPI.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\Core.h">
       <Filter>Header Files</Filter>
     </ClInclude>

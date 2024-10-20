@@ -6,7 +6,7 @@
 
 namespace Core
 {
-	class CORE_API EntityManager
+	class EntityManager
 	{
 	private:
 		using AEntity_ptr = std::shared_ptr<AEntity>;

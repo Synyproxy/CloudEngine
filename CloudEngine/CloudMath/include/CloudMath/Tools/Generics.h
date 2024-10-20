@@ -8,8 +8,6 @@
 #ifndef _GENERICS_H
 #define _GENERICS_H
 
-#include "CloudMath/CloudMathAPI.h"
-
 namespace CloudMath
 {
 	namespace MathTools
@@ -17,7 +15,7 @@ namespace CloudMath
 		/**
 		 * This class exposes some constant variables to the user
 		 */
-		struct CLOUDMATH_API Generics final
+		struct Generics final
 		{
 			static const float	Pi;
 			static const float	E;

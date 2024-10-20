@@ -1,6 +1,5 @@
 #pragma once
 
-#include <Core/CoreAPI.h>
 #include <Core/ECS/Component/Component.h>
 
 /*
@@ -16,7 +15,7 @@ namespace Core
 {
 	namespace Components
 	{
-		class CORE_API CameraComponent : public Component<CameraComponent>
+		class CameraComponent : public Component<CameraComponent>
 		{
 		public:
 			CameraComponent(bool p_mainCamera = false, float p_speed = 5.0f, float p_sensitivity = 0.3f, float p_zoom = 45.f);

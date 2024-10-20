@@ -1,7 +1,6 @@
 #pragma once
 
 #include <Core/stdafx.h>
-#include <Core/CoreAPI.h>
 #include <Core/CoreEntity/GameObject.h>
 
 namespace Core
@@ -9,7 +8,7 @@ namespace Core
 		using namespace Core::Entities;
 		class Scene;
 
-		class CORE_API SceneNode
+		class SceneNode
 		{
 			friend class Scene;
 		public:

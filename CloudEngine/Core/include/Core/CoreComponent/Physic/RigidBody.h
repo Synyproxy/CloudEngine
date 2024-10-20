@@ -1,6 +1,5 @@
 #pragma once
 
-#include "Core/CoreAPI.h"
 #include "Core/CoreComponent/Transform.h"
 #include "Core/CoreComponent/Physic/PhysicObject.h"
 #include "Physic/Dynamics/RigidBody.h"
@@ -9,7 +8,7 @@ namespace Core
 {
 	namespace Components
 	{
-		class CORE_API RigidBody : public Component<RigidBody>
+		class RigidBody : public Component<RigidBody>
 		{
 		public:
 			explicit RigidBody(float p_mass = 1);

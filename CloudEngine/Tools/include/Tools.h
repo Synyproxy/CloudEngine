@@ -20,5 +20,3 @@
 
 //Event
 #include "Tools/Event/Event.h"
-
-#include "Tools/ToolsAPI.h"

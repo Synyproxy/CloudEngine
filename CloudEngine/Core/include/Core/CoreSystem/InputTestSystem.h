@@ -19,7 +19,7 @@ namespace Core
 	{
 		using namespace Core;
 
-		class CORE_API InputTestSystem : public Core:: System<InputTestSystem>
+		class InputTestSystem : public Core:: System<InputTestSystem>
 		{
 		public:
 			InputTestSystem(SystemPriority p_priority = SystemPriority::NORMAL_SYSTEM_PRIORITY,

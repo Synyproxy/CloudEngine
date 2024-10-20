@@ -1,6 +1,5 @@
 #pragma once
 
-#include <Core/CoreAPI.h>
 #include <Core/ECS/Component/Component.h>
 #include "Core/CoreComponent/CameraComponent.h"
 
@@ -13,7 +12,7 @@ namespace Core
 
 	namespace Components
 	{
-		class CORE_API FirstPersonController : public Component<FirstPersonController>
+		class FirstPersonController : public Component<FirstPersonController>
 		{
 			friend Systems::FirstPersonControllerSystem;
 

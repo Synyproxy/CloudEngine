@@ -1,7 +1,5 @@
 #pragma once
 
-#include "Tools/ToolsAPI.h"
-
 #include <chrono>
 #include <atomic>
 

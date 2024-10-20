@@ -1,10 +1,8 @@
 #pragma once
 
-#include "Rendering/RenderingAPI.h"
-
 namespace Rendering
 {
-	class RENDERING_API Driver
+	class Driver
 	{
 	public:
 		Driver();

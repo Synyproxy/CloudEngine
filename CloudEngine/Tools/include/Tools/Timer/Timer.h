@@ -1,9 +1,8 @@
 #pragma once
-#include "Tools/ToolsAPI.h"
 
 namespace Utils
 {
-	class TOOLS_API Timer
+	class Timer
 	{
 	private:
 		Timer() = delete;

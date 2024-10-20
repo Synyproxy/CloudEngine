@@ -7,7 +7,7 @@ namespace Core
 {
 	class AEntity;
 
-	class CORE_API ComponentManager
+	class ComponentManager
 	{
 		friend class ECS;
 

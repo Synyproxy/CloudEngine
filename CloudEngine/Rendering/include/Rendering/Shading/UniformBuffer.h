@@ -1,7 +1,6 @@
 #pragma once
 
 #include "Rendering/stdafx.h"
-#include "Rendering/RenderingAPI.h"
 #include "CloudMath.h"
 
 namespace Rendering
@@ -9,14 +8,14 @@ namespace Rendering
 
 #ifndef UNIFORMDATA
 #define UNIFORMDATA
-	struct RENDERING_API CameraData
+	struct CameraData
 	{
 		float position[4];
 		CloudMath::Matrix4f view;
 		CloudMath::Matrix4f projection;
 	};
 
-	struct RENDERING_API LightData
+	struct LightData
 	{
 		float position[4];
 		float diffuse[4];
@@ -24,7 +23,7 @@ namespace Rendering
 	};
 
 #endif
-	class RENDERING_API UniformBuffer
+	class UniformBuffer
 	{
 	public:
 		UniformBuffer();

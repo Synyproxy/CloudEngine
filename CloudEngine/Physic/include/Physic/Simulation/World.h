@@ -1,6 +1,5 @@
 #pragma once
 
-#include "Physic/PhysicAPI.h"
 #include <bullet/btBulletDynamicsCommon.h>
 #include "Physic/Dynamics/RigidBody.h"
 #include "Physic/Config/WorldConfig.h"
@@ -8,7 +7,7 @@
 
 namespace Physic
 {
-	class PHYSIC_API World
+	class World
 	{
 	public:
 		explicit World(WorldConfig p_worldConfig = {EARTH_GRAVITY});

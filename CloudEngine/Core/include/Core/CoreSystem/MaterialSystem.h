@@ -1,7 +1,6 @@
 #pragma once
 
 #include <Core/stdafx.h>
-#include <Core/CoreAPI.h>
 #include <Core/ECS/System/System.h>
 #include <Core/CoreComponent/MaterialRenderer.h>
 
@@ -14,7 +13,7 @@ namespace Core
 {
 	namespace Systems
 	{
-		class CORE_API MaterialSystem : public  System<MaterialSystem>
+		class MaterialSystem : public  System<MaterialSystem>
 		{
 		public:
 			MaterialSystem(Core::SystemPriority p_priority = SystemPriority::NORMAL_SYSTEM_PRIORITY,

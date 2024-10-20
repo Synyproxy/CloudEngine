@@ -5,7 +5,7 @@
 
 namespace Physic
 {
-	class PHYSIC_API CapsuleCollider : public ACollider
+	class CapsuleCollider : public ACollider
 	{
 	public:
 		explicit CapsuleCollider(float p_radius = 1.f, float p_height = 1.f);

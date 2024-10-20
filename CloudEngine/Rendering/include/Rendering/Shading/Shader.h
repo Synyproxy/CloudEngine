@@ -1,7 +1,6 @@
 #pragma once
 
 #include "Rendering/stdafx.h"
-#include "Rendering/RenderingAPI.h"
 #include "Rendering/Shading/Texture.h"
 #include "CloudMath.h"
 #include <Tools.h>
@@ -77,7 +76,7 @@ namespace Rendering
 
 	class Material;						//Forward Declaration
 
-	class RENDERING_API Shader
+	class Shader
 	{
 		friend class Material;
 

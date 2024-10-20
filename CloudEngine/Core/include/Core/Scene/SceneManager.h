@@ -1,14 +1,13 @@
 #pragma once
 
 #include <Core/stdafx.h>
-#include <Core/CoreAPI.h>
 #include <Core/Scene/Scene.h>
 
 namespace Core
 {
 	namespace SceneManagement
 	{
-		class CORE_API SceneManager
+		class SceneManager
 		{
 		public:
 			static std::shared_ptr<Core::Scene> AddScene(std::string p_sceneName);

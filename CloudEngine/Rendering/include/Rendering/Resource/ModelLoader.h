@@ -1,6 +1,5 @@
 #pragma once
 
-#include <Rendering/RenderingAPI.h>
 #include <Rendering/Resource/Model.h>
 
 /*Forward Declaration Assimp*/
@@ -12,7 +11,7 @@ struct aiString;
 
 namespace Rendering
 {
-	class RENDERING_API ModelLoader
+	class ModelLoader
 	{
 	public:
 		static std::pair<unsigned int, std::string> Load(std::string p_name, std::string p_path);

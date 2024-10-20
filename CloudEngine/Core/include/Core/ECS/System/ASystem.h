@@ -1,12 +1,11 @@
 #pragma once
 
-#include "Core/CoreAPI.h"
 #include "Core/ECS/Types.h"
 #include "SystemPriorityDefine.h"
 
 namespace Core
 {
-	class CORE_API ASystem
+	class ASystem
 	{
 		friend class SystemManager;
 
