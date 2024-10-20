@@ -21,7 +21,7 @@ EditableLabel::EditableLabel(QWidget* p_parent)
 	layout->addWidget(m_goLabel);
 	layout->addWidget(m_labelEditor);
 
-	layout->setMargin(0);
+	layout->setContentsMargins(0, 0, 0, 0);
 	layout->setSpacing(0);
 
 	this->setLayout(layout);

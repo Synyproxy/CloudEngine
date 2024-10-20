@@ -1,6 +1,7 @@
 #pragma once
 
 #include <QLabel>
+#include <QEvent>
 
 class QMouseEvent;
 
@@ -9,7 +10,6 @@ namespace QtEditor
 	class SmartLabel : public QLabel
 	{
 		Q_OBJECT
-	public:
 	public:
 		explicit SmartLabel(const QString& p_text, QWidget* parent = nullptr);
 		~SmartLabel() = default;
@@ -24,7 +24,7 @@ namespace QtEditor
 		void mouseMoveEvent(QMouseEvent* event) override;
 		void mouseReleaseEvent(QMouseEvent* event) override;
 
-		void enterEvent(QEvent* event) override;
+		void enterEvent(QEnterEvent* event) override;
 		void leaveEvent(QEvent* event) override;
 	};
 }

@@ -185,6 +185,9 @@
     <QtMoc Include="GameObjectMenu.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="Console.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="Editor.qrc">
@@ -199,9 +202,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SceneWindow.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Console.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ComponentGUIFactory.h">

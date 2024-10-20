@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'Editor.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.0
+** Created by: Qt User Interface Compiler version 6.8.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -46,7 +46,7 @@ public:
     void setupUi(QMainWindow *EditorClass)
     {
         if (EditorClass->objectName().isEmpty())
-            EditorClass->setObjectName(QString::fromUtf8("EditorClass"));
+            EditorClass->setObjectName("EditorClass");
         EditorClass->resize(1928, 1080);
         QPalette palette;
         QBrush brush(QColor(163, 166, 166, 255));
@@ -61,7 +61,9 @@ public:
         palette.setBrush(QPalette::Active, QPalette::Window, brush1);
         QBrush brush2(QColor(163, 166, 166, 128));
         brush2.setStyle(Qt::NoBrush);
+#if QT_VERSION >= QT_VERSION_CHECK(5, 12, 0)
         palette.setBrush(QPalette::Active, QPalette::PlaceholderText, brush2);
+#endif
         palette.setBrush(QPalette::Inactive, QPalette::WindowText, brush);
         palette.setBrush(QPalette::Inactive, QPalette::Button, brush1);
         palette.setBrush(QPalette::Inactive, QPalette::Text, brush);
@@ -70,7 +72,9 @@ public:
         palette.setBrush(QPalette::Inactive, QPalette::Window, brush1);
         QBrush brush3(QColor(163, 166, 166, 128));
         brush3.setStyle(Qt::NoBrush);
+#if QT_VERSION >= QT_VERSION_CHECK(5, 12, 0)
         palette.setBrush(QPalette::Inactive, QPalette::PlaceholderText, brush3);
+#endif
         palette.setBrush(QPalette::Disabled, QPalette::WindowText, brush);
         palette.setBrush(QPalette::Disabled, QPalette::Button, brush1);
         palette.setBrush(QPalette::Disabled, QPalette::Text, brush);
@@ -79,7 +83,9 @@ public:
         palette.setBrush(QPalette::Disabled, QPalette::Window, brush1);
         QBrush brush4(QColor(163, 166, 166, 128));
         brush4.setStyle(Qt::NoBrush);
+#if QT_VERSION >= QT_VERSION_CHECK(5, 12, 0)
         palette.setBrush(QPalette::Disabled, QPalette::PlaceholderText, brush4);
+#endif
         EditorClass->setPalette(palette);
         EditorClass->setStyleSheet(QString::fromUtf8("*\n"
 "{\n"
@@ -198,41 +204,41 @@ public:
 "\n"
 ""));
         centralWidget = new QWidget(EditorClass);
-        centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
+        centralWidget->setObjectName("centralWidget");
         gridLayout = new QGridLayout(centralWidget);
         gridLayout->setSpacing(6);
         gridLayout->setContentsMargins(11, 11, 11, 11);
-        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
+        gridLayout->setObjectName("gridLayout");
         AssetBrowserSplit = new QSplitter(centralWidget);
-        AssetBrowserSplit->setObjectName(QString::fromUtf8("AssetBrowserSplit"));
+        AssetBrowserSplit->setObjectName("AssetBrowserSplit");
         AssetBrowserSplit->setOrientation(Qt::Horizontal);
         DirectoriesTree = new QTreeView(AssetBrowserSplit);
-        DirectoriesTree->setObjectName(QString::fromUtf8("DirectoriesTree"));
+        DirectoriesTree->setObjectName("DirectoriesTree");
         AssetBrowserSplit->addWidget(DirectoriesTree);
         listView = new QListView(AssetBrowserSplit);
-        listView->setObjectName(QString::fromUtf8("listView"));
+        listView->setObjectName("listView");
         AssetBrowserSplit->addWidget(listView);
 
         gridLayout->addWidget(AssetBrowserSplit, 3, 0, 1, 1);
 
         Hierarchy = new QTreeView(centralWidget);
-        Hierarchy->setObjectName(QString::fromUtf8("Hierarchy"));
+        Hierarchy->setObjectName("Hierarchy");
 
         gridLayout->addWidget(Hierarchy, 2, 0, 1, 1);
 
         splitter = new QSplitter(centralWidget);
-        splitter->setObjectName(QString::fromUtf8("splitter"));
+        splitter->setObjectName("splitter");
         splitter->setOrientation(Qt::Horizontal);
         frame = new QFrame(splitter);
-        frame->setObjectName(QString::fromUtf8("frame"));
+        frame->setObjectName("frame");
         frame->setFrameShape(QFrame::StyledPanel);
         frame->setFrameShadow(QFrame::Raised);
         horizontalLayout = new QHBoxLayout(frame);
         horizontalLayout->setSpacing(6);
         horizontalLayout->setContentsMargins(11, 11, 11, 11);
-        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        horizontalLayout->setObjectName("horizontalLayout");
         MainFrameSplitter = new QSplitter(frame);
-        MainFrameSplitter->setObjectName(QString::fromUtf8("MainFrameSplitter"));
+        MainFrameSplitter->setObjectName("MainFrameSplitter");
         MainFrameSplitter->setOrientation(Qt::Vertical);
 
         horizontalLayout->addWidget(MainFrameSplitter);
@@ -245,7 +251,7 @@ public:
         QTreeWidgetItem *__qtreewidgetitem = new QTreeWidgetItem();
         __qtreewidgetitem->setText(0, QString::fromUtf8("1"));
         Inspector->setHeaderItem(__qtreewidgetitem);
-        Inspector->setObjectName(QString::fromUtf8("Inspector"));
+        Inspector->setObjectName("Inspector");
         Inspector->setRootIsDecorated(false);
         Inspector->header()->setVisible(false);
 
@@ -253,10 +259,10 @@ public:
 
         EditorClass->setCentralWidget(centralWidget);
         statusBar = new QStatusBar(EditorClass);
-        statusBar->setObjectName(QString::fromUtf8("statusBar"));
+        statusBar->setObjectName("statusBar");
         EditorClass->setStatusBar(statusBar);
         menuBar = new QMenuBar(EditorClass);
-        menuBar->setObjectName(QString::fromUtf8("menuBar"));
+        menuBar->setObjectName("menuBar");
         menuBar->setGeometry(QRect(0, 0, 1928, 46));
         EditorClass->setMenuBar(menuBar);
 
@@ -267,7 +273,7 @@ public:
 
     void retranslateUi(QMainWindow *EditorClass)
     {
-        EditorClass->setWindowTitle(QApplication::translate("EditorClass", "Editor", nullptr));
+        EditorClass->setWindowTitle(QCoreApplication::translate("EditorClass", "Editor", nullptr));
     } // retranslateUi
 
 };

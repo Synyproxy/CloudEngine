@@ -3,7 +3,6 @@
 
 class QComboBox;
 class QString;
-class QStringList;
 
 namespace QtEditor
 {

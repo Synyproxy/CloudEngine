@@ -30,7 +30,7 @@ Vec3Widget::~Vec3Widget()
 	delete m_layout;
 }
 
-void Vec3Widget::SetVec3(CloudMath::Vector3f& p_vector)
+void Vec3Widget::SetVec3(const CloudMath::Vector3f& p_vector)
 {
 	if(!m_layout)
 	{

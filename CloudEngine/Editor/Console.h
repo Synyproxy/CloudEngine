@@ -1,11 +1,14 @@
 #pragma once
 #include <QPlainTextEdit>
 #include <QDockWidget>
+#include <Tools/Logs/LogLevel.h>
 
 namespace QtEditor
 {
 	class Console : public QDockWidget
 	{
+		Q_OBJECT
+
 	public:
 		explicit Console(QWidget *parent = nullptr);
 		void focusInEvent(QFocusEvent* event) override;

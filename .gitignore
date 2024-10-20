@@ -11,3 +11,5 @@ imgui.ini
 
 CloudEngine/Intermediate
 CloudEngine/Build
+CloudEngine/Editor/Logs/
+CloudEngine/Editor/GeneratedFiles/

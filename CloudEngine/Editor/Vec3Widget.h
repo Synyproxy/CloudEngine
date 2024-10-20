@@ -17,7 +17,7 @@ namespace QtEditor
 		Vec3Widget(const CloudMath::Vector3f& p_vector, QWidget *p_parent = nullptr);
 		~Vec3Widget();
 
-		void SetVec3(CloudMath::Vector3f& p_vector);
+		void SetVec3(const CloudMath::Vector3f& p_vector);
 
 		float x() const;
 		float y() const;
