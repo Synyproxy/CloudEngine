@@ -1,6 +1,6 @@
 # CloudEngine
 
-CloudEngine is a C++/Opengl second year student project realised as a team of 3 peoples : [William Dewaele](https://github.com/Wdewaele), [Saad Raouf](https://github.com/Synyproxy) and myself, in the given time of 5 months.
+CloudEngine is a C++/Opengl second year student project realised as a team of 3 peoples : [William Dewaele](https://github.com/Wdewaele), [Charly Jeauc] (https://github.com/CJeauc)and myself  [Saad Raouf](https://github.com/Synyproxy), in the given time of 5 months.
 
 ![alt text](https://github.com/CJeauc/CloudEngine/blob/master/Screenshots/Editor.PNG)
 
