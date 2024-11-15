@@ -5,10 +5,10 @@ CloudEngine is a C++/Opengl second year student project realised as a team of 3 
 ![alt text](https://github.com/Synyproxy/CloudEngine/blob/master/Screenshots/Editor.PNG)
 
 Example of the game we made with the engine. It is a first person puzzle game, with platforms and physics
-![alt text](https://github.com/Synyproxy/CloudEngine/blob/master/Screenshots/Game-Demo.PNG)
+![alt text](https://github.com/Synyproxy/CloudEngine/tree/main/Screenshots/Game-Demo.PNG)
 
 Example of Model loading and Custom shading and textures
-![alt text](https://github.com/Synyproxy/CloudEngine/blob/master/Screenshots/ToonShading.PNG)
+![alt text](https://github.com/Synyproxy/CloudEngine/tree/main/Screenshots/ToonShading.PNG)
 
 ## What is this project about
 
@@ -60,9 +60,10 @@ Core Editor Functionality: Designed and implemented essential editor features, i
 
 - The project is currently in progress, so some features will come on future updates.
 - We are currently halfway through the time given for the project (deadline : 14 june 2019).
+- Note: This is not the final project's source code.
 
 ## Build Instruction
 
+- Qt is needed to be installed on the system. https://www.qt.io/download-qt-installer-oss
 - To run the engine you need to set the project "Game" or the project "Editor" as startup project
 - To build the editor project, you need to install QT (which is quite heavy).
-- You can also run the Editor using the [Build](https://github.com/Synyproxy/CloudEngine/tree/master/BuildCloudEngine). ([Editor.exe](https://github.com/CJeauc/CloudEngine/blob/master/BuildCloudEngine/Build/Release-x64/Editor/Editor.exe))
