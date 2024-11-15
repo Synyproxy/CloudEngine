@@ -5,10 +5,10 @@ CloudEngine is a C++/Opengl second year student project realised as a team of 3 
 ![alt text](https://github.com/Synyproxy/CloudEngine/blob/main/Screenshots/Editor.PNG)
 
 Example of the game we made with the engine. It is a first person puzzle game, with platforms and physics
-![alt text](https://github.com/Synyproxy/CloudEngine/blob/main/Screenshots/Game-Demo.PNG)
+![alt text](https://github.com/Synyproxy/CloudEngine/blob/main/Screenshots/Game-Demo.png)
 
 Example of Model loading and Custom shading and textures
-![alt text](https://github.com/Synyproxy/CloudEngine/blob/main/Screenshots/ToonShading.PNG)
+![alt text](https://github.com/Synyproxy/CloudEngine/blob/main/Screenshots/ToonShading.png)
 
 ## What is this project about
 
