@@ -1,10 +1,17 @@
 # CloudEngine
 
-CloudEngine is a C++/Opengl second year student project realised as a team of 3 peoples : [William Dewaele](https://github.com/Wdewaele), [Charly Jeauc](https://github.com/CJeauc) and myself  [Saad Raouf](https://github.com/Synyproxy), in the given time of 5 months.
+CloudEngine is a C++/Opengl second year student project realised as a team of 3 peoples : [William Dewaele](https://github.com/Wdewaele), [Charly Jeauc](https://github.com/CJeauc) and myself [Saad Raouf](https://github.com/Synyproxy), in the given time of 5 months.
 
-![alt text](https://github.com/CJeauc/CloudEngine/blob/master/Screenshots/Editor.PNG)
+![alt text](https://github.com/Synyproxy/CloudEngine/blob/master/Screenshots/Editor.PNG)
+
+Example of the game we made with the engine. It is a first person puzzle game, with platforms and physics
+![alt text](https://github.com/Synyproxy/CloudEngine/blob/master/Screenshots/Game-Demo.PNG)
+
+Example of Model loading and Custom shading and textures
+![alt text](https://github.com/Synyproxy/CloudEngine/blob/master/Screenshots/ToonShading.PNG)
 
 ## What is this project about
+
 - Make a game engine from scratch in C++
 - The final objective is to make a fps-puzle game with CloudEngine
 - Use as few libraries as possible (if we want to use something, we have to implemente it)
@@ -15,15 +22,34 @@ CloudEngine is a C++/Opengl second year student project realised as a team of 3 
 Collision and jump using box collider components and a rigidbody component. The floating cube is a child of the moving and don't have any collider nor physic.
 
 ## Constraints
+
 - The editor must work on Windows.
 - The engine must use our own mathematics library.
-- The engine can only support one rendering API. 
+- The engine can only support one rendering API.
 - The engine can use an existing physic library.
 
 ## My part
-Despite helping my partners, i made the math library ([CloudMath](https://github.com/CJeauc/CloudEngine/tree/master/CloudEngine/CloudMath)), the Entity Component System ([ECS](https://github.com/CJeauc/CloudEngine/tree/master/CloudEngine/Core/include/Core/ECS)), the Physic Engine using Bullet 3 ([Physic](https://github.com/CJeauc/CloudEngine/tree/master/CloudEngine/Physic)) and the components and system needed to the physic to work ([Components](https://github.com/CJeauc/CloudEngine/tree/master/CloudEngine/Core/include/Core/CoreComponent/Physic), [System](https://github.com/CJeauc/CloudEngine/tree/master/CloudEngine/Core/include/Core/CoreSystem/PhysicSystem.h)). I also took care of the resources and singleton management ([Resources Management](https://github.com/CJeauc/CloudEngine/tree/master/CloudEngine/Core/include/Core/Managers), [Singleton Management](https://github.com/CJeauc/CloudEngine/blob/master/CloudEngine/Core/include/Core/Engine/Cloud.h)).
+
+### Core Engine Contributions
+
+#### Core Systems:
+
+Engineered Essential Components: Designed and implemented fundamental aspects of the engine, including input management systems and resource management, ensuring efficient asset handling and responsive user interactions.
+
+#### Rendering Pipeline:
+
+Complete Pipeline Development: Designed and implemented the entire rendering pipeline, covering everything from model loading to texture mapping, lighting, and shader integration. This pipeline was critical to the visual fidelity and performance of the engine.
+
+### Editor Contributions:
+
+#### Scene and Game View Features
+
+Core Editor Functionality: Designed and implemented essential editor features, including the scene and game view. This work enabled real-time scene management and the ability to seamlessly switch between editing and play mode, providing a robust development environment for designers.
+
+#### Scene Management: Developed tools to manage scenes efficiently within the editor, empowering designers to organize and manipulate game elements effectively.
 
 ## Libraries used
+
 - Bullet
 - Assimp
 - Irrklang
@@ -31,11 +57,12 @@ Despite helping my partners, i made the math library ([CloudMath](https://github
 - Qt
 
 ## Project status
+
 - The project is currently in progress, so some features will come on future updates.
 - We are currently halfway through the time given for the project (deadline : 14 june 2019).
 
 ## Build Instruction
+
 - To run the engine you need to set the project "Game" or the project "Editor" as startup project
 - To build the editor project, you need to install QT (which is quite heavy).
-- You can also run the Editor using the [Build](https://github.com/CJeauc/CloudEngine/tree/master/BuildCloudEngine). ([Editor.exe](https://github.com/CJeauc/CloudEngine/blob/master/BuildCloudEngine/Build/Release-x64/Editor/Editor.exe))
-
+- You can also run the Editor using the [Build](https://github.com/Synyproxy/CloudEngine/tree/master/BuildCloudEngine). ([Editor.exe](https://github.com/CJeauc/CloudEngine/blob/master/BuildCloudEngine/Build/Release-x64/Editor/Editor.exe))
